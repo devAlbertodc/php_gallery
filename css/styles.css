@@ -1,0 +1,16 @@
+.home_page_photo{
+    width: 200px;
+    height: 150px !important;
+}
+
+/**** Home Page Pagination: *****/
+.pager .active a{
+    background-color: black;
+    color: white;
+}
+
+/*Mismo efecto para cuando pase el raton (Bootstrap ponia otro color que podia confundir*/
+.pager .active a:hover{
+    background-color: black !important;
+    color: white;
+}
