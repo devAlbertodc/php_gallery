@@ -4,7 +4,7 @@
 defined('DS') ? null : define('DS', DIRECTORY_SEPARATOR);
 
 //Ruta principal del sitio web:
-defined('SITE_ROOT') ? null : define('SITE_ROOT', 'D:'.DS."wamp".DS."www".DS."_personal".DS."gallery");
+defined('SITE_ROOT') ? null : define('SITE_ROOT', 'D:'.DS."wamp".DS."www".DS."_personal".DS."php_gallery");
 
 //Ruta hacia la carpeta de los includes:
 defined('INCLUDES_PATH') ? null : define('INCLUDES_PATH', SITE_ROOT.DS.'admin'.DS.'includes');

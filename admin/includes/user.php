@@ -116,5 +116,12 @@ class User extends Db_object{
     public function photos(){
         return Photo::find_by_query("select * from photos where user_id = " . $this->id);
     }
+
+    public static function getUserFirstLastName(){
+        $first_name = User::find_by_id($_SESSION['user_id'])->first_name;
+        $last_name = User::find_by_id($_SESSION['user_id'])->last_name;
+        $user = $first_name. ' '. $last_name;
+        return $user;
+    }
 }//End of the user class.
 ?>
