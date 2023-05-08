@@ -6,7 +6,7 @@ class Photo extends Db_object{
     protected static $db_table = "photos";
 
     //Crear un array con el nombre de los campos de esta tabla en la base de datos:
-    protected static $db_table_fields = array('id', 'title', 'caption', 'description', 'filename', 'alternate_text', 'type','size','user_id');
+    protected static $db_table_fields = array('id', 'title', 'caption', 'description', 'filename', 'alternate_text', 'type','size'); //,'user_id'
 
     //Atributos de la clase photo:
     public $id;
