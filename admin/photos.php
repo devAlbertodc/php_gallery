@@ -9,7 +9,6 @@
 
     $photos = Photo::find_all();
     //$photos = User::find_by_id($_SESSION['user_id'])->photos();
-    //var_dump("aaaaa");
 ?>
 
         <!-- Navigation -->
